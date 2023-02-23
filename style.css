@@ -267,4 +267,9 @@ header{
     .header-img{
         height:55px;
     }
+    .header-round-info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
