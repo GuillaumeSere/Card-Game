@@ -33,6 +33,7 @@ body{
     background: #f9f9f9d2;
     max-width: 800px;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px 10px #000000;
 }
 
 .header-title-container{
@@ -61,6 +62,8 @@ main{
     height:100%;
     width:calc(var(--card-width-lg) * (var(--num-cards) / 2) + var(--card-horizontal-space-lg));
     display: grid;
+    border-radius: 10px;
+    box-shadow: 2px 6px 14px 15px #000 ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "a b"
