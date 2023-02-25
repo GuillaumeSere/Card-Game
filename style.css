@@ -23,7 +23,9 @@
 }
 body{
     height:100vh;
-    background: url(./images/bg.png);
+    background: url(./images/bg3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: var(--primary-font);
 }
 
