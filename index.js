@@ -38,9 +38,9 @@ const roundElem = document.querySelector(".round")
 
 const numCards = cardObjectDefinitions.length
 
-const winColor = "#147a3b"
-const loseColor = "#b91c1c"
-const primaryColor = "#ffffff"
+const winColor = "#5bd18b"
+const loseColor = "#ff7a7d"
+const primaryColor = "#f8faf7"
 
 loadGame()
 
