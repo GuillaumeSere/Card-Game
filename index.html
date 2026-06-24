@@ -5,32 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="pOJIO6IfVsiX8gZzHJaYMllpPBwTYldr-_HcrKmpID0" />
+    <meta name="google-site-verification" content="pOJIO6IfVsiX8gZzHJaYMllpPBwTYldr-_HcrKmpID0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/AceSpades.png">
-    <title>Card Game</title>
+    <title>Retrouvez l'As de pique</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9SYYZEDLX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T9SYYZEDLX');
+    </script>
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T9SYYZEDLX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-T9SYYZEDLX');
-</script>
 
 <body>
     <header>
         <div class="header-title-container">
-            <img src="./images/ace.gif" alt="" class="header-image">
-            <h1>Trouvez cette carte ♠️</h1>
+            <img src="./images/ace.gif" alt="As de pique" class="header-image">
+            <h1>Retrouvez l'As de pique &spades;</h1>
         </div>
         <section class="header">
             <div class="header-round-info-container">
                 <div class="header-img-container">
-                    <img src="https://guillaumesere.github.io/Card-Game/images/AceSpades.png" alt="" class="header-img">
+                    <img src="./images/AceSpades.png" alt="Carte cible : As de pique" class="header-img">
                 </div>
                 <div class="header-score-container">
                     <h2 class="score">Score&nbsp;<span class="badge">0</span></h2>
@@ -40,13 +39,13 @@
                 </div>
             </div>
             <div class="header-status-info-container">
-                <p class="current-status">
-                    Click sur le bouton pour commencer une partie
+                <p class="current-status" aria-live="polite">
+                    Cliquez sur Jouer pour commencer une partie.
                 </p>
             </div>
             <div class="header-button-container">
                 <div class="game-play-button-container">
-                    <button id="playGame" class="play-game">Play Game</button>
+                    <button id="playGame" class="play-game">Jouer</button>
                 </div>
             </div>
         </section>
@@ -54,21 +53,12 @@
 
     <main>
         <div class="card-container">
-            <div class="card-pos-a">
-
-            </div>
-            <div class="card-pos-b">
-
-            </div>
-            <div class="card-pos-c">
-
-            </div>
-            <div class="card-pos-d">
-
-            </div>
+            <div class="card-pos-a"></div>
+            <div class="card-pos-b"></div>
+            <div class="card-pos-c"></div>
+            <div class="card-pos-d"></div>
         </div>
     </main>
-
 
     <script src="index.js"></script>
 </body>
